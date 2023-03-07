@@ -1,0 +1,46 @@
+div > h2 {
+  font-style: italic;
+}
+h2 + p {
+  color: red;
+}
+.lister > li {
+  list-style: none;
+  border-bottom: gray solid 1px;
+}
+li a:link {
+  color: green;
+}
+
+li a:visited {
+  color: red;
+}
+li a:hover {
+  color: pink;
+}
+li a:first-child::first-letter {
+  font-weight: bold;
+  font-size: 120%;
+}
+a[title="BCIT homepage"] {
+  background-color: yellow;
+}
+img {
+  float: left;
+}
+.below {
+  clear: left;
+}
+.target {
+  width: 50px;
+  height: 50px;
+  background-color: forestgreen;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.container {
+  border: 2px gray solid;
+  position:relative;
+}
+
